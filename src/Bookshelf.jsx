@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Bookshelf = (props) => {
+const Bookshelf = () => {
   // state vars here
   const [books, setBooks] = useState([
     { title: "Fourth Wing", author: "Rebecca yarros" },
